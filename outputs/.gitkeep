@@ -1,0 +1,6 @@
+# full 报告落地目录
+
+命名规范：outputs/{game-name}-{scope}-{YYYY-MM-DD}.md
+例：genshin-commercialization-2026-06-06.md
+
+（生成的报告放这里；此文件仅占位说明。）

@@ -17,13 +17,19 @@
 
 ```
 game-teardown/
-├── SKILL.md                          # 主流程：定对象→定品类→收集信息→按维度拆→输出
-└── references/
-    ├── universal-framework.md        # 通用九问：保证任何游戏都拆得了（兜底层）
-    ├── by-genre.md                   # 七大设计原型簇 + 重型复合体的维度权重
-    ├── dimensions.md                 # 各维度的拆解要点
-    ├── numerical-and-economy.md      # 数值与经济深拆（含模拟经营/策略向）
-    └── examples.md                   # 说明书式 vs 策划式 对照范例
+├── SKILL.md                          # 主流程：决策树→定对象→收集信息→按维度拆→模块化输出
+├── references/
+│   ├── universal-framework.md        # 通用九问：保证任何游戏都拆得了（兜底层）
+│   ├── by-genre.md                   # 七大设计原型簇 + 重型复合体的维度权重
+│   ├── dimensions.md                 # 各维度的拆解要点
+│   ├── numerical-and-economy.md      # 数值与经济深拆（含模拟经营/策略向）
+│   ├── output-templates.md           # 模块化输出模板（必含骨架 + 品类挂载块）
+│   ├── diagrams.md                   # mermaid 模板：系统依赖图/资源水池图/竞品结构图
+│   ├── comparison.md                 # 竞品定性对比（强/中/弱 + 理由，不做数字评分）
+│   ├── interview-mode.md             # 面试讲解版：2 分钟口述稿 + 预判追问答法
+│   ├── examples.md                   # 说明书式 vs 策划式 对照范例（含过度脑补刹车）
+│   └── sample-report.md              # 一篇完整迷你样例（虚构游戏，示意结构/篇幅/语气）
+└── outputs/                          # full 报告落地处：{game-name}-{scope}-{YYYY-MM-DD}.md
 ```
 
 ## 怎么用
